@@ -1,0 +1,27 @@
+{
+	"name": "quantumvideo-comfortdisplay",
+	"version": "1.0.0",
+	"description": "Bitfocus Companion module for ComfortDisplay: full screen, presenter messages, the clock, and live Limitimer and PerfectCue status.",
+	"main": "src/main.js",
+	"type": "commonjs",
+	"license": "MIT",
+	"author": "Quantum Video",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-quantumvideo-comfortdisplay.git"
+	},
+	"scripts": {
+		"package": "companion-module-build",
+		"check": "companion-module-check"
+	},
+	"engines": {
+		"node": "^22.18"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.14.1"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.8.0"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}
