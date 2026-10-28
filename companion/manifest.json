@@ -1,0 +1,26 @@
+{
+	"id": "quantumvideo-comfortdisplay",
+	"name": "quantumvideo-comfortdisplay",
+	"shortname": "comfortdisplay",
+	"description": "Control ComfortDisplay: full screen, presenter messages, the clock, and live DSAN Limitimer and PerfectCue status.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-quantumvideo-comfortdisplay.git",
+	"bugs": "https://github.com/bitfocus/companion-module-quantumvideo-comfortdisplay/issues",
+	"maintainers": [
+		{
+			"name": "Quantum Video",
+			"email": "sroussel@quantumvideo.org"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"manufacturer": "Quantum Video",
+	"products": ["ComfortDisplay"],
+	"keywords": ["Timer", "Countdown", "Confidence Monitor", "Limitimer", "PerfectCue", "DSAN", "Message"]
+}
